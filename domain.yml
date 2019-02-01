@@ -1,0 +1,97 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_continue
+- utter_greet
+- utter_chitchat
+- utter_noworries
+- utter_slots_values
+- action_listen
+- utter_confirm_booking
+- utter_not_confirm_booking
+- action_slot_reset
+
+entities:
+- end_location
+- TypeOfVehicle
+- start_location
+- location
+- PaymentType
+
+forms:
+- ride_booking_form
+
+config:
+  store_entities_as_slots: true
+
+intents:
+- request_ride:
+    use_entities: false
+- stop
+- greet
+- chitchat
+- inform
+- affirm
+- deny
+- thankyou
+
+slots:
+  TypeOfVehicle:
+    auto_fill: false
+    type: unfeaturized     
+  end_location:
+    auto_fill: false
+    type: unfeaturized
+  preferences:
+    auto_fill: false
+    type: unfeaturized
+  requested_slot:
+    auto_fill: false
+    type: unfeaturized
+  start_location:
+    auto_fill: false
+    type: unfeaturized
+  PaymentType:
+    auto_fill: false
+    type: unfeaturized
+
+templates:
+  utter_ask_TypeOfVehicle:
+  - text: Specify which ride you want(i,e Car, Mini-car, Taxi, Flight Ticket, Train Ticket, Bus Ticket, Auto-rikshaw etc)?
+  utter_ask_continue:
+  - text: Do you want me to continue?
+  utter_ask_start_location:
+  - text: Please provide pickup location?
+  utter_ask_end_location:
+  - text: Please provide drop location?
+  utter_ask_preferences:
+  - text: please provide additional preferences?
+  utter_ask_PaymentType:
+  - text: "Pay By / Payment Method: "
+  utter_ask_confirm_booking:
+  - text: Would you like to confirm your booking application status?
+  utter_default:
+  - text: sorry, I didn't understand you, please try input something else
+  utter_greet:
+  - text: Hello! I am Travel Booking assistant! How may I help you?
+  utter_noworries:
+  - text: You are welcome :)
+  utter_slots_values:
+  - text: "I am going to booking your ride as per the following parameters:\n 
+           - Cab Type: {TypeOfVehicle}\n 
+           - Start Location: {start_location}\n 
+           - End Location: {end_location}\n
+           - Payment Method: {PaymentType}\n
+           - Preference: {preferences}\nWould you like to continue?"
+  utter_submit:
+  - text: All done!
+  utter_wrong_TypeOfVehicle:
+  - text: Please provide valid ride type or select vehicle 
+  utter_confirm_booking:
+  - text: "Congratulation!\n Your request has been successfully processed." 
+  utter_not_confirm_booking:
+  - text: Your ride booking request has been cancelled. Please try again later. Thanks!
+
+
+
+
