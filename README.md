@@ -11,7 +11,7 @@ Training of the NLU model:
 
 ### 2. Run the custom action file (FormAction):
 
-''' python actions.py'''
+ ```python actions.py ```
 
 ### 3. Training the Rasa Core model: 
 
