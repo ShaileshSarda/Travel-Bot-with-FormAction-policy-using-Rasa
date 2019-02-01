@@ -2,12 +2,12 @@
 actions:
 - utter_ask_continue
 - utter_greet
-- utter_chitchat
-- utter_noworries
 - utter_slots_values
 - action_listen
 - utter_confirm_booking
 - utter_not_confirm_booking
+- utter_chitchat
+- utter_noworries
 - action_slot_reset
 
 entities:
@@ -24,13 +24,13 @@ config:
   store_entities_as_slots: true
 
 intents:
+- inform
+- affirm
 - request_ride:
     use_entities: false
 - stop
 - greet
 - chitchat
-- inform
-- affirm
 - deny
 - thankyou
 
