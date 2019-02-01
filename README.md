@@ -6,7 +6,7 @@
 
 Training of the NLU model:  
 
-``` python rasa_nlu_model.py ```
+``` python nlu_model.py ```
 
 
 ### 2. Run the custom action file (FormAction):
