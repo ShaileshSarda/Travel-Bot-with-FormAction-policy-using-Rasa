@@ -1,4 +1,4 @@
-## happy path
+## story 001
 * greet
     - utter_greet
 * request_ride
@@ -13,8 +13,7 @@
     - action_slot_reset
     - reset_slots
 
-
-## happy path 2
+## story 002
 * greet
     - utter_greet
 * request_ride
@@ -29,8 +28,7 @@
     - action_slot_reset
     - reset_slots
 
-
-## unhappy path
+## story 003
 * greet
     - utter_greet
 * request_ride
@@ -49,7 +47,7 @@
     - reset_slots
 
 
-## unhappy path 2
+## story 004
 * greet
     - utter_greet
 * request_ride
@@ -68,7 +66,7 @@
     - reset_slots
 
 
-## very unhappy path
+## story 005
 * greet
     - utter_greet
 * request_ride
@@ -91,7 +89,7 @@
     - reset_slots
 
 
-## stop but continue path
+## story 006
 * greet
     - utter_greet
 * request_ride
@@ -108,8 +106,7 @@
     - action_slot_reset
     - reset_slots
 
-
-## stop and really stop path
+## story 007
 * greet
     - utter_greet
 * request_ride
@@ -121,7 +118,7 @@
     - action_deactivate_form
     - form{"name": null}
 
-## chitchat stop but continue path
+## story 008
 * request_ride
     - ride_booking_form
     - form{"name": "ride_booking_form"}
@@ -140,7 +137,7 @@
     - reset_slots
 
 
-## stop but continue and chitchat path
+## story 009
 * greet
     - utter_greet
 * request_ride
@@ -161,7 +158,7 @@
     - reset_slots
 
 
-## chitchat stop but continue and chitchat path
+## story 010
 * greet
     - utter_greet
 * request_ride
@@ -185,7 +182,7 @@
     - reset_slots
 
 
-## chitchat, stop and really stop path
+## story 011
 * greet
     - utter_greet
 * request_ride
@@ -203,7 +200,7 @@
     - reset_slots
 
 
-## Story 0010
+## story 012
 * greet
     - utter_greet
 * request_ride
@@ -265,7 +262,7 @@
     - reset_slots
 
 
-## Generated Story 3490283781720101691 (example from interactive learning, "form: " will be excluded from training)
+## story 013
 * greet
     - utter_greet
 * request_ride
@@ -330,13 +327,7 @@
     - action_slot_reset
     - reset_slots
 
-
-## story 111
-* thankyou
-    - utter_noworries
-
-
-## unhappy path 3
+## story 014
 * greet
     - utter_greet
 * request_ride
@@ -351,7 +342,7 @@
     - action_slot_reset
     - reset_slots
 
-## unhappy path 4
+## story 015
 * greet
     - utter_greet
 * request_ride
@@ -364,7 +355,7 @@
     - action_slot_reset
     - reset_slots
 
-## very unhappy path 1
+## story 016
 * greet
     - utter_greet
 * request_ride
@@ -375,8 +366,7 @@
     - action_slot_reset
     - reset_slots
 
-
-## chitchat stop but continue and chitchat path 1
+## story 017
 * greet
     - utter_greet
 * request_ride
