@@ -8,9 +8,6 @@ import rasa_core
 from rasa_core.agent import Agent
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
-from rasa_core.interpreter import RasaNLUInterpreter
-from rasa_core.utils import EndpointConfig
-from rasa_core.run import serve_application
 from rasa_core import config
 from rasa_core.policies.form_policy import FormPolicy
 
