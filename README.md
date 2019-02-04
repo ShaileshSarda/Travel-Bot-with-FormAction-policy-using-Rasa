@@ -1,5 +1,5 @@
 
-# This bot is based on 'FormAction' where in action file we used FormAction Feature to get slots of data from the user. Store them temporarily and retrive them back. This is very basic task of FormAction and How it works.
+# This bot is based on 'FormAction' where in action file we used FormAction Feature to get slots of data from the user. Store them temporarily and retrive them back. This is very basic task of FormAction and its working.
 
 
 ### 1. Training the NLU model
