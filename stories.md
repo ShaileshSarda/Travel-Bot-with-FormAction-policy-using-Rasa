@@ -366,7 +366,7 @@
     - action_slot_reset
     - reset_slots
 
-## story 017
+## story 017 & 018
 * greet
     - utter_greet
 * request_ride
