@@ -107,7 +107,7 @@ python-engineio==2.3.2
 python-socketio==2.0.0
 python-telegram-bot==10.1.0
 pytz==2018.7
-PyYAML==3.13
+PyYAML==5.4
 rasa==0.1.0
 rasa-core==0.12.2
 rasa-core-sdk==0.12.1
